@@ -1,0 +1,91 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1613828330596-982c62f72e9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 60px;
+}
+
+.container {
+    width: 120%;
+    max-width: 800px;
+    background-image: url("bg.png");
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #3234fb;
+}
+
+label {
+    font-size: 30px;
+    padding: 40px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 75%;
+    padding: 10px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+#fromScale {
+    width: 75%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#toScale {
+    width: 75%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    background-color: black;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-left: 200px;
+
+
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 16px;
+    color: #ffffff;
+
+}
